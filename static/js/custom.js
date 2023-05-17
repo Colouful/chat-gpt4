@@ -244,7 +244,7 @@ $(document).ready(function() {
   });
 
   // apiKey
-  const apiKey = localStorage.getItem('apiKey');
+  const apiKey = localStorage.getItem('apiKey') || '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';
   if (apiKey) {
     $(".settings-common .api-key").val(apiKey);
   }
